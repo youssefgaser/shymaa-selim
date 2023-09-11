@@ -1,0 +1,406 @@
+body {
+    margin: 0px;
+}
+
+.tan-background {
+    background-color: #f4f1eb;
+    height: 100vh;
+}
+
+.container-of-home-page {
+    background-color: #f4f1eb;
+    display: flex;
+}
+
+.container-of-shymaa-photos {
+    background-color: #f4f1eb;
+    width: 400px;
+    height: 550px;
+    margin: 5% 7%;
+    
+}
+
+.shymaa-photos {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border: solid black;
+}
+
+.heading-group-of-home-page {
+    width: 50%;
+    margin-right: 100px;
+    padding-top: 14%;
+    text-align: center;
+}
+
+.heading-of-home-page {
+    margin: 0px;
+    font-family: 'Gulzar', serif;
+    font-size: 4.5rem;
+}
+
+.subheading-of-home-page {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #575757;
+}
+
+.button-group-of-home-page {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: auto;
+    place-content:  center;
+}
+
+.button-of-home-page {
+    width: 100%;
+    padding: 4%;
+    background-color: black;
+    color: white;
+    font-family: 'Amiri', serif;
+}
+
+#button-of-translate-into-english-ar {
+    width: 100%;
+    border: solid #575757;
+    background-color: #575757;
+    font-family: 'Playfair Display', serif;
+}
+
+.link-of-email-me {
+    margin-bottom: 10%;
+}
+
+#link-of-translate-into-english-ar {
+    color: white
+}
+
+
+
+
+.white-background {
+    background-color: white;
+    margin-top: 70px;
+}
+
+.about-container {
+    background-color: white;
+    height: 70vh;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.group-aboutMe {
+    width: 380px;
+    height: 300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 5%;
+}
+
+.headding-aboutMe {
+    font-family: 'Amiri', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+
+.content-aboutMe {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    color: #575757;
+    direction: rtl;
+    margin: 0px;
+}
+
+.imgContainer-aboutMe {
+    width: 300px;
+    object-fit: cover;
+    margin-right: 15%;
+}
+
+.img-aboutMe {
+    max-width: 100%;
+    max-height: 100%;
+    border: solid black;
+}
+
+
+
+
+.experience {
+    background-color: #f4f1eb;
+    height: 210vh;
+    margin-top: 100px;
+}
+
+.container-experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-heading-experience {
+    width: 380px;
+    font-size: 2.5rem;
+    font-family: 'Amiri', serif;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-top: 30px;
+    padding-right: 5%;
+}
+
+#heading-experience-ar {
+    direction: rtl;
+}
+
+.container-experiences{
+    width: 50%;
+    direction: rtl;
+    margin-top: 65px;
+}
+
+.container-professional-development {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-year-professional-development {
+    margin-left: 5%;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+}
+
+.container-content-professional-development {
+    width: 80%;
+}
+
+.heading-professional-development {
+    font-weight: bold;
+    font-family: 'Amiri', serif;
+    margin-bottom: 5px;
+}
+
+.subHeading-professional-development {
+    color: #575757;
+    margin-top: 5px;
+    font-family: 'Playfair Display', serif;
+}
+
+.content-professional-development {
+    font-family: 'Playfair Display', serif;
+}
+
+.education {
+    background-color: #ffffff;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.container-education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-heading-education {
+    width: 320px;
+    font-size: 2rem;
+    font-family: 'Amiri', serif;
+    margin-right: 0%;
+    margin-left: 4%;
+    padding-top: 30px;
+}
+
+#heading-education-ar {
+    direction: rtl;
+}
+
+.container-educations{
+    width: 40%;
+    direction: rtl;
+    margin-top: 65px;
+    padding-right: 5%;
+}
+
+.container-bachelor-of-science {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+}
+
+.heading-bachelor-of-science {
+    font-weight: bold;
+    font-family: 'Amiri', serif;
+    margin-bottom: 5px;
+}
+
+.subHeading-bachelor-of-science {
+    color: #575757;
+    margin-top: 5px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0px;
+}
+
+.content-bachelor-of-science {
+    font-family: 'Playfair Display', serif;
+    margin-top: 0px;
+}
+
+.skillsSection {
+    background-color: #f4f1eb;
+    z-index: -1;
+    margin: 0px;
+}
+
+.greatContainer-skillsProficiencies {
+    display: flex;
+    height: 80vh;
+}
+
+.container-skillsProficiencies {
+    background-color: #f4f1eb;
+    width: 50%;
+}
+
+.heading-skillsProficiencies {
+    font-family: 'Amiri', serif;
+    font-size: 2rem;
+    margin: 0px;
+    margin-top: 50%;
+    margin-left: 25%;
+    width: 45%;
+    direction: rtl;
+}
+
+.container-skills {
+    width: 100%;
+    color: white;
+    background-color: #575757;
+    padding-top: 7%;
+    margin-left: 0%;
+    direction: rtl;
+}
+
+.skills {
+    width: 50%;
+    background-color: #575757;
+    margin-right: 22%;
+    margin-bottom: 6%;
+}
+
+.heading-skills {
+    font-weight: bold;
+    font-family: 'Amiri', serif;
+}
+
+.subheading-skills {
+    font-family: 'Playfair Display', serif;
+}
+
+.content-skills {
+    font-family: 'Playfair Display', serif;
+    color: #d9d9d9;
+}
+
+.container-contactWithMe {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.group-contactWithMe {
+    color: white;
+    padding-top: 5%;
+    padding-right: 0%;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+    direction: rtl;
+}
+
+.heading-contactWithMe {
+    font-size: 5rem;
+    font-family: 'Amiri', serif;
+    margin: 0px;
+    margin-bottom: 5%;
+}
+
+.subheading-contacts {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2%;
+}
+
+.websiteLink {
+    color: white;
+}
+
+.follow-follow {
+    margin-top: 5%;
+}
+
+.follow-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: 1fr 1fr
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    padding: 5%;
+    padding-left: 0px;
+}
+
+#twitter {
+    filter: opacity(0.2) drop-shadow(0 0 #444444);
+}
+
+#youtube {
+    filter: opacity(0.2) drop-shadow(0 0 #444444);
+}
+
+#hrFooter {
+    height: 0.5px;
+    background-color: #737373;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-right: 7.5%;
+}
+
+.myPrint {
+    margin-left: 7.5%;
+}
+
+#YE {
+    color: #bf9469;
+    text-decoration: none;
+}
+
+#link-YE {
+    text-decoration-color: #bf9469;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,406 @@
+body {
+    margin: 0px;
+}
+
+hr.broken {
+    width: 100%;
+    } 
+
+.tan-background {
+    background-color: #f4f1eb;
+    height: 100vh;
+}
+
+.container-of-home-page {
+    background-color: #f4f1eb;
+    display: flex;
+}
+
+.container-of-shymaa-photos {
+    background-color: #f4f1eb;
+    height: 550px;
+    width: 400px;
+    margin: 5% 7%;
+}
+
+.shymaa-photos {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border: solid black;
+}
+
+.heading-group-of-home-page {
+    width: 50%;
+    margin-right: 100px;
+    padding-top: 15%;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.heading-of-home-page {
+    margin: 0px;
+    font-family: 'EB Garamond', serif;
+    font-size: 4.5rem;
+}
+
+.subheading-of-home-page {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #575757;
+}
+
+.button-group-of-home-page {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: auto;
+    place-content:  center;
+}
+
+.button-of-home-page {
+    width: 100%;
+    padding: 5%;
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+#button-of-translate-into-arabic-en {
+    width: 100%;
+    border: solid #575757;
+    background-color: #575757;
+    font-family: 'Amiri', serif;
+}
+
+.link-of-email-me {
+    margin-bottom: 10%;
+}
+
+#link-of-translate-into-arabic-en {
+    color: white
+}
+
+.white-background {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.about-container {
+    background-color: white;
+    height: 70vh;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.group-aboutMe {
+    width: 380px;
+    margin-left: 6%;
+}
+
+.headding-aboutMe {
+    font-family: 'EB Garamond', serif !important;
+    font-size: 2rem;
+    margin-bottom: 10%;
+}
+
+.content-aboutMe {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    color: #575757;
+}
+
+.imgContainer-aboutMe {
+    width: 300px;
+    object-fit: cover;
+    margin-right: 24%;
+}
+
+.img-aboutMe {
+    max-width: 100%;
+    max-height: 100%;
+    border: solid black;
+}
+
+
+
+
+.experience {
+    background-color: #f4f1eb;
+    height: 230vh;
+    margin-top: 100px;
+}
+
+.container-experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-heading-experience {
+    width: 380px;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-right: 0%;
+    margin-left: 6%;
+    padding-top: 30px;
+}
+
+.container-experiences{
+    width: 50%;
+    direction: ltr;
+    margin-top: 65px;
+    margin-right: 15.5%;
+}
+
+.container-professional-development {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-year-professional-development {
+    margin-right: 5%;
+    font-weight:500;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+}
+
+.container-content-professional-development {
+    width: 80%;
+}
+
+.heading-professional-development {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+}
+
+.subHeading-professional-development {
+    color: #575757;
+    margin-top: 5px;
+    font-family: 'EB Garamond', serif;
+}
+
+.content-professional-development {
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+
+
+
+.education {
+    background-color: #ffffff;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.container-education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-heading-education {
+    width: 320px;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-right: 0%;
+    margin-left: 6%;
+    padding-top: 30px;
+}
+
+.container-educations{
+    width: 50%;
+    direction: ltr;
+    margin-top: 65px;
+    padding-left: 0%;
+    padding-right: 11%;
+}
+
+.container-bachelor-of-science {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+}
+
+.heading-bachelor-of-science {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+}
+
+.subHeading-bachelor-of-science {
+    color: #575757;
+    margin-top: 5px;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 0px;
+}
+
+.content-bachelor-of-science {
+    font-family: 'EB Garamond', serif;
+    margin-top: 0px;
+}
+
+
+
+
+.skillsSection {
+    background-color: #f4f1eb;
+    z-index: -1;
+    margin: 0px;
+}
+
+.greatContainer-skillsProficiencies {
+    display: flex;
+    height: 80vh;
+}
+
+.container-skillsProficiencies {
+    background-color: #f4f1eb;
+    width: 45%;
+}
+
+.heading-skillsProficiencies {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin: 0px;
+    margin-top: 50%;
+    margin-left: 25%;
+    width: 45%;
+}
+
+.container-skills {
+    width: 100%;
+    color: white;
+    background-color: #575757;
+    padding-top: 7%;
+    margin-left: 0%;
+}
+
+.skills {
+    width: 50%;
+    background-color: #575757;
+    margin-left: 11.5%;
+    margin-bottom: 6%;
+}
+
+.heading-skills {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.subheading-skills {
+    font-family: 'EB Garamond', serif;
+}
+
+.content-skills {
+    font-family: 'EB Garamond', serif;
+    color: #d9d9d9;
+}
+
+
+
+
+.container-contactWithMe {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.group-contactWithMe {
+    color: white;
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+.heading-contactWithMe {
+    font-family: 'EB Garamond', serif;
+    font-size: 4rem;
+    margin: 0px;
+    margin-bottom: 5%;
+}
+
+.group-contacts {
+    font-family: 'EB Garamond', serif;
+}
+
+.subheading-contacts {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2%;
+}
+
+.websiteLink {
+    color: white;
+}
+
+.follow-follow {
+    margin-top: 5%;
+}
+
+.follow-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: 1fr 1fr
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    padding: 5%;
+    padding-left: 0px;
+}
+
+#twitter {
+    filter: opacity(0.2) drop-shadow(0 0 #444444);
+}
+
+#youtube {
+    filter: opacity(0.2) drop-shadow(0 0 #444444);
+}
+
+#hrFooter {
+    height: 0.5px;
+    background-color: #737373;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-left: 7.5%;
+}
+
+.myPrint {
+    margin-right: 7.5%;
+}
+
+#YE {
+    color: #bf9469;
+    text-decoration: none;
+}
+
+#link-YE {
+    text-decoration-color: #bf9469;
+}
+
+
+
+
+
+
+
+
+
+
