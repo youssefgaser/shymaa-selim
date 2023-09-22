@@ -1,3 +1,89 @@
+@media (min-width: 1601px) {
+    #container-of-shymaa-photo-home-ar {
+        width: 30%;
+        height: 30%;
+        margin: 5% 10%;
+    }
+
+    #headding-of-home-page-ar {
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 6rem;
+    }
+
+    #subheadding-of-home-page-ar {
+        width: 50%;
+        margin-left: 10%;
+        font-size: 2.5rem;
+    }
+
+    #button-group-of-home-page-ar {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    #group-aboutMe-ar {
+        width: 30%;
+        font-size: 2rem;
+    }
+
+    #headding-aboutMe-ar {
+        font-size: 3rem;
+    }
+
+    #imgContainer-aboutMe-ar {
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    #container-heading-experience-ar {
+        font-size: 3rem;
+        margin-top: 5%;
+    }
+
+    #container-experiences-ar {
+        font-size: 2rem;
+        margin-top: 8.5%;
+    }
+
+    #container-heading-education-ar {
+        font-size: 3rem;
+        margin-top: 5%;
+    }
+
+    #container-educations-ar {
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+
+    #heading-skillsProficiencies-ar {
+        font-size: 3rem;
+        margin-left: 20%;
+    }
+
+    #container-skills-ar {
+        font-size: 2rem;
+    }
+
+    #container-contactWithMe-ar {
+        height: 70vh;
+    }
+
+    #heading-contactWithMe-ar {
+        font-size: 4rem;
+    }
+
+    #group-contacts-ar {
+        font-size: 2rem;
+    }
+
+    #group-follow-ar {
+        font-size: 2rem;
+        font-family: 'EB Garamond', serif;
+    }
+}
+
 @media (min-width: 1201px) {
 
     .container-of-shymaa-photos {
@@ -200,7 +286,7 @@
         margin-left: 6%;
     }
 
-    #container-content-bachelor-of-science-en {
+    #container-content-bachelor-of-science-ar {
         padding-left: 0%;
     }
     
