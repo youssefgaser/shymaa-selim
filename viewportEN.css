@@ -1,5 +1,91 @@
+@media (min-width: 1601px) {
+    #container-of-shymaa-photo-home-ar {
+        width: 30%;
+        height: 30%;
+        margin: 5% 10%;
+    }
+
+    #headding-of-home-page-ar {
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 6rem;
+    }
+
+    #subheadding-of-home-page-ar {
+        width: 50%;
+        margin-left: 10%;
+        font-size: 2.5rem;
+    }
+
+    #button-group-of-home-page-ar {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    #group-aboutMe-ar {
+        width: 30%;
+        font-size: 2rem;
+    }
+
+    #headding-aboutMe-ar {
+        font-size: 3rem;
+    }
+
+    #imgContainer-aboutMe-ar {
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    #container-heading-experience-ar {
+        font-size: 3rem;
+        margin-top: 5%;
+    }
+
+    #container-experiences-ar {
+        font-size: 2rem;
+        margin-top: 8.5%;
+    }
+
+    #container-heading-education-ar {
+        font-size: 3rem;
+        margin-top: 5%;
+    }
+
+    #container-educations-ar {
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+
+    #heading-skillsProficiencies-ar {
+        font-size: 3rem;
+        margin-left: 20%;
+    }
+
+    #container-skills-ar {
+        font-size: 2rem;
+    }
+
+    #container-contactWithMe-ar {
+        height: 70vh;
+    }
+
+    #heading-contactWithMe-ar {
+        font-size: 4rem;
+    }
+
+    #group-contacts-ar {
+        font-size: 2rem;
+    }
+
+    #group-follow-ar {
+        font-size: 2rem;
+        font-family: 'EB Garamond', serif;
+    }
+}
+
 @media (min-width: 1201px) {
-    
+
     .container-of-shymaa-photos {
         height: 20% !important;
         width: 30% !important;
@@ -15,60 +101,57 @@
         object-fit: contain;
     }
 
-
 }
 
 @media (min-width: 319px) and (max-width: 1200px) {
 
-    .home {
+    .tan-background {
         background-color: #f4f1eb;
-        height: 100vh !important;
+        height: 100vh;
     }
     
     .container-of-home-page {
         background-color: #f4f1eb;
         display: flex;
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
     
     .container-of-shymaa-photos {
         height: 70%;
         width: 50%;
-        margin-top: 50px;
+        margin-top: 5%;
+        margin-right: 0px;
         margin-left: 25%;
-        justify-content: center;
     }
     
     .shymaa-photos {
-        height: 90%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         object-fit: contain;
     }
     
     .heading-group-of-home-page {
         width: 50%;
-        margin-right: 100px;
+        margin-right: 0px;
         padding-top: 0px;
         text-align: center;
-        font-family: 'EB Garamond', serif;
-        margin-left: 25%;
+        margin-left: 0%;
     }
     
     .heading-of-home-page {
         margin: 0px;
-        font-family: 'EB Garamond', serif;
         font-size: 3rem;
     }
     
     .subheading-of-home-page {
-        font-family: 'Playfair Display', serif;
         font-size: 1.5rem;
         color: #575757;
     }
 
     .about-container {
         background-color: white;
-        height: 78vh;
+        height: 90vh;
         padding-top: 100px;
         display: flex;
         flex-wrap: wrap;
@@ -83,8 +166,8 @@
     }
     
     .headding-aboutMe {
-        font-family: 'EB Garamond', serif !important;
-        font-size: 1.7rem;
+        font-family: 'Amiri', serif;
+        font-size: 2rem;
         margin-top: 1%;
         margin-bottom: 5%;
     }
@@ -104,9 +187,12 @@
         max-height: 100%;
     }
 
+
+
+
     .experience {
         background-color: #f4f1eb;
-        height: 285vh;
+        height: 250vh;
         margin-top: 100px;
     }
 
@@ -118,20 +204,20 @@
     
     .container-heading-experience {
         width: 380px;
-        font-size: 1.7rem;
-        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
         margin-right: 0%;
         margin-left: 6%;
         padding-top: 30px;
+        direction: rtl;
     }
 
     .heading-experience {
-        margin-bottom: 0px;;
+        margin-bottom: 0px;
     }
     
     .container-experiences{
         width: 50%;
-        direction: ltr;
+        direction: rtl;
         margin-top: 0px;
         margin-left: 6%;
         margin-right: 0px;
@@ -145,10 +231,9 @@
     }
     
     .container-year-professional-development {
-        margin-right: 100%;
+        margin-left: 100%;
         font-weight:500;
         font-style: italic;
-        font-family: 'EB Garamond', serif;
     }
     
     .container-content-professional-development {
@@ -157,23 +242,20 @@
     
     .heading-professional-development {
         font-weight: bold;
-        font-family: 'Playfair Display', serif;
         margin-bottom: 5px;
     }
     
     .subHeading-professional-development {
         color: #575757;
         margin-top: 5px;
-        font-family: 'EB Garamond', serif;
     }
-    
-    .content-professional-development {
-        font-family: 'EB Garamond', serif;
-    }
+
+
+
 
     .education {
         background-color: #ffffff;
-        height: 65vh;
+        height: 75vh;
         margin-top: 50px;
     }
     
@@ -185,8 +267,7 @@
     
     .container-heading-education {
         width: 88%;
-        font-size: 1.7rem;
-        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
         margin-right: 0%;
         margin-left: 6%;
         padding-top: 0px;
@@ -198,14 +279,14 @@
 
     .container-educations{
         width: 88%;
-        direction: ltr;
+        direction: rtl;
         margin-top: 0px;
         padding-left: 0%;
         padding-right: 0%;
         margin-left: 6%;
     }
 
-    #container-content-bachelor-of-science-en {
+    #container-content-bachelor-of-science-ar {
         padding-left: 0%;
     }
     
@@ -218,21 +299,21 @@
     
     .heading-bachelor-of-science {
         font-weight: bold;
-        font-family: 'Playfair Display', serif;
         margin-bottom: 5px;
     }
     
     .subHeading-bachelor-of-science {
         color: #575757;
         margin-top: 5px;
-        font-family: 'EB Garamond', serif;
         margin-bottom: 0px;
     }
     
     .content-bachelor-of-science {
-        font-family: 'EB Garamond', serif;
         margin-top: 0px;
     }
+
+
+
 
     .skillsSection {
         background-color: #f4f1eb;
@@ -253,12 +334,12 @@
     }
     
     .heading-skillsProficiencies {
-        font-family: 'Playfair Display', serif;
-        font-size: 1.7rem;
+        font-size: 2rem;
         margin: 0px;
         margin-top: 5%;
-        margin-left: 6%;
-        width: 100%;
+        margin-right: 0%;
+        margin-left: 5%;
+        width: 90%;
     }
     
     .container-skills {
@@ -273,21 +354,15 @@
     .skills {
         width: 90%;
         background-color: #575757;
-        margin-left: 4%;
+        margin-right: 4%;
         margin-bottom: 6%;
     }
     
     .heading-skills {
         font-weight: bold;
-        font-family: 'Playfair Display', serif;
-    }
-    
-    .subheading-skills {
-        font-family: 'EB Garamond', serif;
     }
     
     .content-skills {
-        font-family: 'EB Garamond', serif;
         color: #d9d9d9;
     }
 
@@ -297,33 +372,32 @@
     .container-contactWithMe {
         background-color: black;
         color: white;
-        height: 70vh;
+        height: 80vh !important;
         padding-top: 10%;
     }
     
     .group-contactWithMe {
         color: white;
         padding-top: 5%;
-        padding-left: 0%;
-        padding-left: 6%;
-        padding-right: 7.5%;
+        padding-right: 0%;
+        padding-right: 6%;
+        padding-left: 7.5%;
     }
 
     .heading-contactWithMe {
-        font-family: 'EB Garamond', serif;
         font-size: 2.5rem;
         margin: 10%;
-        margin-left: 0%;
+        margin-right: 0%;
     }
-    
+
     .group-contacts {
-        font-family: 'EB Garamond', serif;
+        font-size:smaller;
     }
     
     .subheading-contacts {
         font-weight: bold;
-        font-family: 'Playfair Display', serif;
         margin-bottom: 2%;
+        font-size: medium;
     }
     
     .websiteLink {
@@ -345,7 +419,7 @@
         height: 40px;
         object-fit: contain;
         padding: 5%;
-        padding-left: 0px;
+        padding-right: 0px;
     }
     
     #twitter {
@@ -364,16 +438,18 @@
     
     .footer {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
     
     .copyright {
-        margin-left: 7.5%;
+        margin-right: 0%;
+        margin-left: 45%;
         font-size: x-small;
     }
     
     .myPrint {
-        margin-right: 7.5%;
+        margin-left: 54%;
         font-size: x-small;
     }
     
@@ -382,99 +458,40 @@
         text-decoration: none;
     }
     
-
+    #link-YE {
+        text-decoration-color: #bf9469;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1200px) {
-
-    .home {
-        background-color: #f4f1eb;
-        height: 100vh;
-    }
-
-    .container-of-home-page {
-        background-color: #f4f1eb;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 10%;
-    }
-
-    .container-of-shymaa-photos {
-        height: 70%;
-        width: 50%;
-        margin: 0px;
-        justify-content: center;
-    }
-    
-    .shymaa-photos {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        border: solid black;
-    }
 
     .heading-group-of-home-page {
         width: 50%;
         margin: 0px 30%;
         padding-top: 5%;
         text-align: center;
-        font-family: 'EB Garamond', serif;
     }
 
-    .group-aboutMe {
-        width: 380px;
-    }
-
-    .headding-aboutMe {
-        font-family: 'EB Garamond', serif !important;
-        font-size: 2rem;
-        margin-bottom: 10%;
-    }
-    
-    .content-aboutMe {
-        width: 100%;
-    }
-    
-    .imgContainer-aboutMe {
-        width: 40%;
-        object-fit: contain;
-    }
-    
-    .img-aboutMe {
-        max-width: 100%;
-        max-height: 100%;
-        border: solid black;
-    }
-
-    .container-of-shymaa-photos {
-        width: 40%;
-        margin-left: 0%;
-        justify-content: center;
-    }
-    
-    .shymaa-photos {
-        height: 100%;
-        width: 100%;
-        object-fit: contain;
-        border: solid black;
+    .heading-group-of-home-page {
+        margin: 0px 0%;
+        margin-left: 25%
     }
 
     .tan-background {
-        height: 150vh !important;
+        height: 180vh;
     }
 
     .about-container {
         height: 150vh;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 
     .group-aboutMe {
-        margin-left: 11.2%;
+        margin-right: 6%;
     }
 
     .imgContainer-aboutMe {
-        margin-left: 29.5%;
+        margin-right: 23%;
     }
 
     .headding-aboutMe-ar {
@@ -482,12 +499,12 @@
     }
     
     .experience {
-        height: 315vh;
+        height: 300vh;
     }
 
     .container-experience {
-        justify-content: flex-start;
-        margin-left: 5.5%;
+        justify-content: flex-end;
+        margin-right: 6%;
     }
 
     .container-heading-experience {
@@ -496,10 +513,6 @@
 
     .education {
         height: 100vh;
-    }
-
-    .container-education {
-        margin-left: 5%;
     }
 
     .greatContainer-skillsProficiencies {
@@ -518,35 +531,12 @@
 
 @media (min-width: 1000px) and (max-width: 1200px) and (min-height: 500px) and (max-height: 800px) {
     .home {
-        height: 190vh;
+        height: 200vh;
     }
-}
-
-@media (min-width: 390px) and (max-width: 480px) {
     
-    .home {
-        background-color: #f4f1eb;
-        height: 100vh;
-    }
-
-    .heading-group-of-home-page {
-        padding-top: 5%;
-    }
-
-    .heading-of-home-page {
-        font-size: 2em;
-    }
-
-    .container-of-home-page {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 10%;
-    }
-
     .container-of-shymaa-photos {
-        width: 300px;
-        margin: 0px !important;
+        width: 40%;
+        margin-left: 30%;
         justify-content: center;
     }
     
@@ -559,70 +549,60 @@
 
 }
 
-@media (min-width: 319px) and (max-width: 389px) {
+@media (min-width: 319px) and (max-width: 480px) {
 
-    .home {
-        background-color: #f4f1eb;
-        height: 100vh;
+    .container-of-home-page {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .container-of-shymaa-photos {
-        width: 300px;
-        margin: 0px !important;
-        justify-content: center;
+        height: 70%;
+        width: 70%;
+        margin: 0px;
+        margin-top: 10%;
+    }
+
+    #heading-group-of-home-page-ar {
+        margin-top: 10%;
     }
     
     .shymaa-photos {
         height: 100%;
         width: 100%;
         object-fit: contain;
-        border: solid black;
-    }
-
-    .heading-group-of-home-page {
-        padding-top: 5%;
-        margin: 0 0px;
     }
 
     .heading-of-home-page {
-        font-size: 2em;
-    }
-
-    .container-of-home-page {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 10%;
+        font-size: 2rem;
     }
 
 }
 
-@media (min-width: 320px) and (max-width: 450px) and (max-height: 760px) {
+@media (min-width: 320px) and (max-width: 450px) and (max-height: 770px) {
+    
     .tan-background {
-        height: 130vh !important;
+        height: 120vh;
     }
-
-    .about-container {
-        height: 100vh;
-    }
-
+    
     .experience {
-        height: 375vh;
-    }
-
-    .education {
-        height: 100vh;
+        height: 340vh;
     }
 
     .greatContainer-skillsProficiencies {
-        height: 100vh;
+        height: 96vh;
     }
 
     .container-skills {
-        height: 80vh;
+        height: 80.5vh;
     }
 
     .container-contactWithMe {
         height: 100vh;
     }
+}
+
+@media (min-width: 760px) and (max-width: 1100px) and (max-height: 1370px) {
+    
 }
